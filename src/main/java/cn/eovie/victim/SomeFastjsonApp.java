@@ -10,6 +10,7 @@ public class SomeFastjsonApp {
     public static void main(String[] argv){
         testJdbcRowSetImpl();
     }
+
     public static void testJdbcRowSetImpl(){
         System.setProperty("com.sun.jndi.rmi.object.trustURLCodebase", "true");
         //LADP 方式
